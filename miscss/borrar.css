@@ -1,0 +1,55 @@
+body {
+    background: url(https://fondosmil.com/fondo/10750.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px 800px;
+}
+
+.Seccion {
+    background: hsla(0, 20%, 66%, 0.837);
+    color: red;
+    width: 300px;
+    margin: 10px auto;
+    padding: 20px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border: 2px solid rgba(0, 0, 255, 0.496);
+}
+
+.Seccion input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.btn button {
+    width: 50%;
+    margin-bottom: 20px;
+    width: 10px;
+}
+
+form {
+    border: 2px solid rgba(0, 0, 255, 0.496);
+    margin: 10px auto;
+    padding: 20px;
+}
+
+.Seccion img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -13%;
+}
+
+.navegacion {
+    text-align: right;
+    padding: 10px 10px;
+}
+
+.navegacion button>:hover {
+    text-decoration: underline;
+    padding: 20px;
+    color: red;
+}
